@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto space-y-12 animate-fade-in">
           <div className="flex justify-center">
             <div className="inline-block bg-background/30 backdrop-blur-sm rounded-lg px-6 md:px-10 py-4 md:py-6 border border-background/20">
-              <h1 className="font-display text-5xl md:text-7xl font-bold text-background leading-tight drop-shadow-2xl">
+              <h1 className="font-display text-2xl md:text-7xl font-bold text-background leading-tight drop-shadow-2xl">
                 <span className="whitespace-nowrap">#1 Ranked Cabinet Store</span>
                 <br />
                 <span className="text-accent font-extrabold drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">in Central Ohio</span>

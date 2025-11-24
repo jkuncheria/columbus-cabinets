@@ -37,7 +37,7 @@ const Header = () => {
               <img 
                 src="/columbus-cabinets-logo.png" 
                 alt="Columbus Cabinets" 
-                className="h-10 w-auto"
+                className="h-8 md:h-10 w-auto"
               />
             </Link>
             <div className="flex items-center gap-2 md:hidden">
