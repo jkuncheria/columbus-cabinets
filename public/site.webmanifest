@@ -1,0 +1,22 @@
+{
+  "name": "Columbus Cabinets",
+  "short_name": "Columbus Cabinets",
+  "description": "Custom bathroom and kitchen cabinets that blend beauty, functionality, and durability. Serving the greater Columbus area from Lewis Center, Ohio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
