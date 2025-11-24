@@ -68,7 +68,7 @@ const Marietta = () => {
                   Get Free Quote
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:6145551234">(614) 555-1234</a>
+                  <a href="tel:6145551234">(380) 278-1778</a>
                 </Button>
               </div>
             </div>

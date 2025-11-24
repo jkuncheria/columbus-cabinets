@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -30,13 +30,21 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <a href="tel:6145551234" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
                 <Phone className="w-4 h-4" />
-                (614) 555-1234
+                (380) 278-1778
               </a>
               <div className="flex items-start gap-2 text-background/80">
                 <MapPin className="w-4 h-4 mt-0.5" />
                 <div>
                   <div>601 Corduroy Rd</div>
                   <div>Lewis Center, OH 43035</div>
+                </div>
+              </div>
+              <div className="flex items-start gap-2 text-background/80">
+                <Clock className="w-4 h-4 mt-0.5" />
+                <div>
+                  <div>Mon – Fri: 8 AM – 6 PM</div>
+                  <div>Sat: 9 AM – 3 PM</div>
+                  <div>Sun: Closed</div>
                 </div>
               </div>
             </div>
@@ -56,9 +64,6 @@ const Footer = () => {
                 <Link to="/services" className="hover:text-background transition-colors">Our Services</Link>
               </li>
               <li>
-                <Link to="/warranty" className="hover:text-background transition-colors">Warranty</Link>
-              </li>
-              <li>
                 <Link to="/care-tips" className="hover:text-background transition-colors">Care Tips</Link>
               </li>
               <li>
@@ -67,7 +72,7 @@ const Footer = () => {
             </ul>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/profile.php?id=100067611466928&name=xhp_nt__fb__action__open_user&_rdr"
+                href="https://www.facebook.com/columbus.cabinets.fb"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-background/10 hover:bg-background/20 rounded-full flex items-center justify-center transition-colors"
@@ -76,7 +81,7 @@ const Footer = () => {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://www.instagram.com/surface_pro_refinishing/"
+                href="https://www.instagram.com/columbuscabinets/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-background/10 hover:bg-background/20 rounded-full flex items-center justify-center transition-colors"

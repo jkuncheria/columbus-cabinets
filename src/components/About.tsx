@@ -1,13 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Award, Clock, DollarSign, Timer } from "lucide-react";
 import { Link } from "react-router-dom";
-
-const stats = [
-  { icon: Clock, label: "years of experience", value: "5+" },
-  { icon: Award, label: "trusted brands", value: "3+" },
-  { icon: DollarSign, label: "satisfied customers", value: "500+" },
-  { icon: Timer, label: "service areas", value: "10+" },
-];
+import aboutUsImage from "@/assets/about-us.jpg";
 
 const About = () => {
   return (
@@ -44,19 +37,12 @@ const About = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 gap-6 animate-fade-in-up">
-            {stats.map((stat, index) => (
-              <div
-                key={index}
-                className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow"
-              >
-                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <stat.icon className="w-8 h-8 text-primary-foreground" />
-                </div>
-                <div className="text-3xl font-bold text-foreground mb-2">{stat.value}</div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </div>
-            ))}
+          <div className="animate-fade-in-up">
+            <img
+              src={aboutUsImage}
+              alt="About Columbus Cabinets"
+              className="w-full h-auto rounded-2xl shadow-lg object-cover"
+            />
           </div>
         </div>
       </div>

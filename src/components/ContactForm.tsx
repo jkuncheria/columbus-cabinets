@@ -139,7 +139,7 @@ const ContactForm = () => {
                           onChange={handleChange}
                           required
                           className="h-10 border border-foreground/20 focus:border-accent focus:ring-1 focus:ring-accent/20 transition-all bg-background text-sm"
-                          placeholder="(614) 555-1234"
+                          placeholder="(380) 278-1778"
                         />
                       </div>
                     </div>

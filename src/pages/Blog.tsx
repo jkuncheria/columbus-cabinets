@@ -15,7 +15,7 @@ const blogPosts = [
     category: "Design Tips",
     date: "March 15, 2024",
     readTime: "5 min read",
-    image: "/Services/KitchenRefacing.jpeg",
+    image: "/gallery/IMG_8260.jpg",
     slug: "creative-cabinet-solutions-small-kitchens",
   },
   {
@@ -25,7 +25,7 @@ const blogPosts = [
     category: "Materials Guide",
     date: "March 8, 2024",
     readTime: "7 min read",
-    image: "/Services/CountertopResurfacing.jpg",
+    image: "/gallery/JK-Gallery-S1-1-300x217.jpg",
     slug: "mdf-plywood-solid-wood-cabinet-materials",
   },
   {
@@ -35,7 +35,7 @@ const blogPosts = [
     category: "Trends",
     date: "March 1, 2024",
     readTime: "6 min read",
-    image: "/Services/StandardBathtubResurfacing.jpg",
+    image: "/gallery/JK-Gallery-S8-1-1-300x200.jpg",
     slug: "top-10-kitchen-cabinet-trends-2024",
   },
   {
@@ -45,7 +45,7 @@ const blogPosts = [
     category: "Design Tips",
     date: "February 22, 2024",
     readTime: "4 min read",
-    image: "/Services/StandardShowerResurfacing.jpg",
+    image: "/gallery/Untitled_HDR15-194x300.jpg",
     slug: "choose-perfect-cabinet-hardware",
   },
   {
@@ -55,7 +55,7 @@ const blogPosts = [
     category: "Budget Tips",
     date: "February 15, 2024",
     readTime: "8 min read",
-    image: "/Services/LargeShowerResurfacing.jpg",
+    image: "/gallery/Untitled_HDR18-300x200.jpg",
     slug: "budget-friendly-kitchen-remodeling-ideas",
   },
   {
@@ -65,7 +65,7 @@ const blogPosts = [
     category: "Installation",
     date: "February 8, 2024",
     readTime: "10 min read",
-    image: "/Services/GardenTubResurfacing.jpeg",
+    image: "/gallery/Untitled_HDR19-300x200.jpg",
     slug: "complete-guide-cabinet-installation",
   },
 ];

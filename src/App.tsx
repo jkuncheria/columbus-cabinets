@@ -5,13 +5,14 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import Warranty from "./pages/Warranty";
 import CareTips from "./pages/CareTips";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import Gallery from "./pages/Gallery";
+import Cabinets from "./pages/Cabinets";
 
 const queryClient = new QueryClient();
 
@@ -25,10 +26,11 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
+                <Route path="/cabinets" element={<Cabinets />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/warranty" element={<Warranty />} />
                 <Route path="/care-tips" element={<CareTips />} />
                 {/* Legacy URL redirects for SEO - 301 redirects handled in vercel.json */}
                 <Route path="/ourwork" element={<Navigate to="/services" replace />} />

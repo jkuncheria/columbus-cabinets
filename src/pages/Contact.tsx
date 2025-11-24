@@ -38,7 +38,7 @@ const Contact = () => {
                     </div>
                     <h3 className="font-semibold text-sm text-foreground/70 mb-2">Phone</h3>
                     <a href="tel:6145551234" className="text-foreground hover:text-accent transition-colors font-medium">
-                      (614) 555-1234
+                      (380) 278-1778
                     </a>
                   </CardContent>
                 </Card>
@@ -74,7 +74,7 @@ const Contact = () => {
               {/* Social Media Icons */}
               <div className="flex justify-center gap-6">
                 <a 
-                  href="https://www.facebook.com/profile.php?id=100067611466928&name=xhp_nt__fb__action__open_user&_rdr"
+                  href="https://www.facebook.com/columbus.cabinets.fb"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
@@ -86,7 +86,7 @@ const Contact = () => {
                   />
                 </a>
                 <a 
-                  href="https://www.instagram.com/surface_pro_refinishing/"
+                  href="https://www.instagram.com/columbuscabinets/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
